@@ -240,7 +240,7 @@ footer.homeFooter ul li {
 }
 /*#############################MOBILE#############################*/
 
-@media screen and (min-width: 680px){
+@media screen and (max-width: 680px){
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
