@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Brandon Myskiw</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+                <li class="topnav-right"><a href="#signup">B</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+
+        <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+             <div class="leftSide-col">
+                 <h1 class="large">Brandon Myskiw</h1>
+                 <h1 class="large"></h1>
+             </div>
+             <form>
+                 <div class="leftSide-col">
+                    <h2>Electrical Technologist turned Web Developer</h2>
+                </div> 
+            </form>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <img src="me.jpg">
+                </div>
+                
+            </div>
+            
+        </div>
+
+        </div>
+
+    
+        <header>
+            <h1 class="section2Header">Want to work together and create amazing projects with me?</h1>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">                   
+                    <div class="box">
+                        <div class="icon">
+                            <img src="code.jpg" alt="">
+                        </div>
+                        <label>Projects</label>
+                            <p>
+                                Click here to see some of my coding projects! All of these have been built from scratch and showcase my abilities in HTML, CSS & javascript
+                            </p>
+                    </div>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="meHead.jpg" alt="">
+                        </div>
+                        <label>About me</label>
+                            <p>
+                                Click here to learn all about me, including family, hobbies and history. And don't forget some of the fun moments we have on our small family farm!
+                            </p>
+                    </div>
+                    
+                </div>
+                <div class="col-4">                   
+                    <div class="box">
+                        <div class="icon">
+                            <img src="contact.jpg" alt="">
+                        </div>
+                        <label>Contact</label>
+                            <p>
+                                Click here to get in contact with me! 
+                                <br>
+                                Don't hesitate to reach out, I am <br> always open to new career growth opporunities
+                            </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+        
+
+        <footer class="homeFooter">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Brandon Myskiw</h1>
+                    <ul>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /*change topnav to topnav.responsive*/
+                }
+                else {
+                    x.className="topnav";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
