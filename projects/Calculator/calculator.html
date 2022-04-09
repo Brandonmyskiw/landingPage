@@ -1,0 +1,48 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Calculator</title>
+        </head>
+        <body>
+            <nav>
+                <ul class="topnav" id="dropdownClick">
+                    <li><a href="/landingPage/landingPage/Index.html">Home</a></li>
+                    <li><a href="/landingPage/landingPage/projects.html">Projects</a></li>
+                    <li><a href="/landingPage/landingPage/about.html">About Me</a></li>
+                    <li><a href="/landingPage/landingPage/contact.html">Contact</a></li>
+                
+                    <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+                </ul>
+            </nav>
+            
+            <div class=container>
+                <div class="result">
+                    <p id="resultField"></p>
+                </div>
+                <table class="buttonGrid">
+                    <input type="button" value="7" onclick="button7();">
+                    <input type="button" value="8" onclick="button8();">
+                    <input type="button" value="9" onclick="button9();">
+                    <input type="button" value="/" onclick="buttonDivide();">
+                    <input type="button" value="4" onclick="button4();">
+                    <input type="button" value="5" onclick="button5();">
+                    <input type="button" value="6" onclick="button6();">
+                    <input type="button" value="x" onclick="buttonx();">
+                    <input type="button" value="1" onclick="button1();">
+                    <input type="button" value="2" onclick="button2();">
+                    <input type="button" value="3" onclick="button3();">
+                    <input type="button" value="-" onclick="buttonMinus();">
+                    <input type="button" value="0" onclick="button0();">
+                    <input type="button" value="." onclick="buttonPoint();">
+                    <input type="button" value="+" onclick="buttonPlus();">
+                    <input type="button" value="=" onclick="buttonEqual();">
+                    <input class="clearButton" type="button" value="Clear" onclick="buttonClear();">
+            </table>
+            </div>
+
+
+
+            <link rel="stylesheet" href="style.css">
+            <script src="script.js"></script>
+        </body>
+    </html>

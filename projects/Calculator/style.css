@@ -1,0 +1,108 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+ padding: 10px;
+ border-radius: 1px;
+ height: 400px;
+ width: 400px;
+ margin: auto;
+ margin-top: 20px;
+ background-color: #191b28;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.result {
+ background-color: #dcdbe1;
+ border: solid black 0.5px;
+ color: black;
+ border-radius: 5px;
+ width: 98%;
+ height: 20%;
+ margin: 1%
+}
+
+
+    
+input {
+ background-color: #64278f;
+ color: white;
+ border: solid black 0.5px;
+ width: 23%;
+ border-radius: 5px;
+ height: 13%;
+ outline: none;
+ font-size: 32px;
+ font-style: bold;
+ margin: 1%;
+
+}
+
+.clearButton {
+    width: 98%;
+    height: 15%;
+    margin: 1%;
+}
+
+#resultField {
+    text-align: right;
+    font-size: 32px;
+    font-style: bold;
+    margin-right: 5px;
+}
+
+/*#############################NAV BAR#############################*/
+
+nav {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    list-style: none;
+    float: right;
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    height: 24px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: white;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+
+    
+}
